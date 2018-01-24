@@ -22,7 +22,7 @@ public class ObjectTrackerParser {
         // Parse the information
         String[] inputs = jevoisString.split(" ");
 
-        // Display it
+        // Stronly type the coordinates
         int x = Integer.parseInt(inputs[1]);
         int y = Integer.parseInt(inputs[2]);
 
