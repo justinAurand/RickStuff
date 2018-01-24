@@ -22,11 +22,11 @@ public class ObjectTrackerParser {
         // Parse the information
         String[] inputs = jevoisString.split(" ");
 
-        // Stronly type the coordinates
+        // Strongly type the coordinates
         int x = Integer.parseInt(inputs[1]);
         int y = Integer.parseInt(inputs[2]);
 
-        // Proof
+        // Display the coordinates
         System.out.println("x: " + x);
         System.out.print("y: " + y);
     }
